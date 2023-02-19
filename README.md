@@ -1,2 +1,2 @@
 # OneToThree
-## [markdown](https://github.com/DuanShuSheng/OneToThree/markdown/Readme.md)
+## [markdown](https://github.com/DuanShuSheng/OneToThree/tree/main/markdown)
