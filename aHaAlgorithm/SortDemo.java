@@ -1,4 +1,5 @@
 public class SortDemo {
+    // 从大到小排序
     public static void main(String[] args) {
         int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         printArray(array);
@@ -9,6 +10,7 @@ public class SortDemo {
     }
 
     // 冒泡排序
+    // 循环两两相邻比较，空间复杂度低，时间复杂度高
     static void bubbleSort(int[] array) {
         for (int i = 0; i < array.length; i++) {
             for (int j = i + 1; j < array.length; j++) {
@@ -23,6 +25,7 @@ public class SortDemo {
     }
 
     // 桶排序
+    // 申请flag空间，时间复杂度低，空间复杂度高
     static void barrelSort(int[] array) {
         int[] temp = new int[11];
         for (int k : array) {
@@ -37,6 +40,7 @@ public class SortDemo {
     }
 
     // 快速排序
+    // 二分法
     static void quickSort(int[] array, int left, int right) {
         if (left >= right) {
             return;
